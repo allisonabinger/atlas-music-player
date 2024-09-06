@@ -56,7 +56,7 @@ function PlayControls() {
         <img src={backwardSVG} alt="Reverse Button" className="size-6" />
       </button>
       <button
-        className="btn-playcontrols outline outline-4 h-12 w-12"
+        className="btn-playcontrols outline outline-4"
         onClick={togglePlayStatus}
       >
         <img

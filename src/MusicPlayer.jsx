@@ -1,22 +1,12 @@
 // Music Player Component
-import CoverArt from "./components/CoverArt";
-import SongTitle from "./components/SongTitle";
-import PlayControls from "./components/PlayControls";
-import VolumeControl from "./components/VolumeControl";
-import PlayListItem from "./components/PlayListItem";
+import CurrentlyPlaying from "./components/CurrentlyPlaying";
+import Playlist from "./components/Playlist";
 
 export default function MusicPlayer() {
   return (
-    <div className="flex flex-row justify-center">
-        <div className="currently-playing w-full">
-          <CoverArt />
-          <SongTitle title="Tidal Drift" artist="Echoes of the Sea" />
-          <PlayControls />
-          <VolumeControl />
-        </div>
-        <div className="playlist w-full">
-            <PlayListItem title="Electric Fever" artist="Neon Jungle" length="8:41" />
-        </div>
+    <div className="flex flex-row p-0 justify-center h-full w-full max-w-4xl ml-auto mr-auto overflow-hidden rounded-lg">
+        <CurrentlyPlaying />
+        <Playlist />
     </div>
   );
 }
