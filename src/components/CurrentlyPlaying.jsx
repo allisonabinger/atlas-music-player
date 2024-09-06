@@ -5,7 +5,7 @@ import VolumeControl from "./VolumeControl";
 
 function CurrentlyPlaying() {
   return (
-    <div className="currently-playing w-full p-6 justify-center items-center">
+    <div className="currently-playing w-full p-4 justify-center">
       <CoverArt />
       <SongTitle title="Tidal Drift" artist="Echoes of the Sea" />
       <PlayControls />

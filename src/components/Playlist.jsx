@@ -18,7 +18,7 @@ function Playlist() {
     },
   ];
   return (
-    <div className="p-8 w-full">
+    <div className="p-8 w-full border-t md:border-l md:border-t-0">
       <h2 className="mb-4 text-lg font-semibold">Playlist</h2>
       {playlistData.map((item) => (
         <PlayListItem

@@ -2,7 +2,7 @@
 
 function PlayListItem({ title, artist, length }) {
   return (
-    <div className="w-full mb-1 pr-2 flex justify-between font-medium">
+    <div className="w-full mb-1 pr-3 flex justify-between font-medium">
       <div className="wrapper text-left text-sm">
         <div className="">{title}</div>
         <div className="text-slate-500">{artist}</div>
