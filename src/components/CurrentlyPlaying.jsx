@@ -7,7 +7,7 @@ function CurrentlyPlaying() {
   return (
     <div className="currently-playing w-full p-4 justify-center">
       <CoverArt />
-      <SongTitle title="Tidal Drift" artist="Echoes of the Sea" />
+      <SongTitle title="Painted in Blue" artist="Soul Canvas" />
       <PlayControls />
       <VolumeControl />
     </div>

@@ -45,18 +45,18 @@ function PlayControls() {
   return (
     <div className="player-controls mb-4 flex items-center justify-between">
       <button className="btn-playcontrols" onClick={togglePlaybackSpeed}>
-        <span className="text-lg text-slate-800 font-medium">
+        <span className="text-lg text-vista-blue-800 font-medium">
           {playbackSpeed}x
         </span>
       </button>
       <button
-        className="btn-playcontrols disabled:opacity-50"
+        className="btn-playcontrols"
         disabled={playStatus}
       >
         <img src={backwardSVG} alt="Reverse Button" className="size-6" />
       </button>
       <button
-        className="btn-playcontrols outline outline-4"
+        className="btn-playcontrols"
         onClick={togglePlayStatus}
       >
         <img

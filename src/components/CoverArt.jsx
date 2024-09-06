@@ -1,11 +1,11 @@
 // Cover Art Component (uses placeholder)
-import placeholderImage from "../assets/placeholder.svg";
+import PaintedInBlue from "../assets/PaintedInBlue.jpeg";
 
 function CoverArt() {
   return (
     <div className="flex cover-art mb-6 w-full justify-center">
       <img
-        src={placeholderImage}
+        src={PaintedInBlue}
         alt="Placeholder Cover Art Image"
         className="rounded-md md:w-400 md:h-400"
       />
